@@ -1,0 +1,97 @@
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-menu{
+    background-color: indianred;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 9999999999999;
+}
+
+.nav-menu nav{
+    padding: 5px; 
+    padding-right: 15px;
+}
+
+.nav-menu nav a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.topo{
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logo img{
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+.txt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: aqua;
+    font-weight: 600;
+    text-align: center;
+    padding: 2%;
+}
+
+.cta-download button{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    color:brown;
+    padding: 10px;
+}
+
+.seta i{
+    font-size: 80px;
+    color:chartreuse;
+    display: block;
+    text-align: center;
+    padding: 2%;
+}
+
+.sobre{
+    width: 100%;
+    height: 100vh;
+    background-color:blueviolet;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+    padding-bottom: 50px;
+}
+
+.contato-form{
+    width: 100%;
+    height: 100vh;
+    padding-top: 85px;
+}
